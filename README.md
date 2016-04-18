@@ -1,4 +1,4 @@
 # PickerView_Swift
 An effective implementation for UIPickerView in Swift
 
-https://www.youtube.com/watch?v=1CgAKBf4bbU
+![alt tag](https://raw.githubusercontent.com/KenanKarakecili/PickerView_Swift/master/Untitled-2.gif)
