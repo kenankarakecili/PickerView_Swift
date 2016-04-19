@@ -10,8 +10,7 @@ import UIKit
 
 class PickerView: UIView {
   
-  let picker = UIPickerView()
-  let toolBar = UIToolbar()
+  private let picker = UIPickerView()
   var dataArray = [String]()
   var field: UITextField!
   
@@ -20,21 +19,17 @@ class PickerView: UIView {
     picker.showsSelectionIndicator = true
     picker.delegate = self
     picker.dataSource = self
-    
+    let toolBar = UIToolbar()
     toolBar.barStyle = UIBarStyle.Default
-    toolBar.tintColor = .blackColor()
+    toolBar.tintColor = Constants.darkBlueColor(1)
     toolBar.sizeToFit()
-    
-    let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(PickerView.donePicker))
+    let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(PickerView.doneButtonAction))
     let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: nil, action: nil)
-    let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(PickerView.cancelPicker))
-    
+    let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(PickerView.cancelButtonAction))
     toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
-    toolBar.userInteractionEnabled = true
     field.inputView = picker
     field.inputAccessoryView = toolBar
     field.tintColor = UIColor.clearColor()
-    
     if field.text?.characters.count > 0 {
       let row = dataArray.indexOf(field.text!)
       picker.selectRow(row!, inComponent: 0, animated: false)
@@ -43,13 +38,13 @@ class PickerView: UIView {
     }
   }
   
-  func donePicker(){
+  func doneButtonAction() {
     let row = (picker.selectedRowInComponent(0))
     field.text = dataArray[row]
     field.resignFirstResponder()
   }
   
-  func cancelPicker(){
+  func cancelButtonAction() {
     field.resignFirstResponder()
   }
 }
@@ -82,12 +77,3 @@ extension PickerView: UIPickerViewDataSource, UIPickerViewDelegate {
   }
   
 }
-
-class NonPerformField: UITextField {
-  
-  override func canPerformAction(action: Selector, withSender sender: AnyObject?) -> Bool {
-    return false
-  }
-  
-}
-
