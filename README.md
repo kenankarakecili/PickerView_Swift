@@ -5,3 +5,22 @@ An effective implementation for UIPickerView in Swift
 
 #Usage
 
+class ViewController: UIViewController {
+
+  let pickerView = PickerView()
+
+}
+
+extension ViewController: UITextFieldDelegate {
+  
+  func textFieldDidBeginEditing(textField: UITextField) {
+    if textField == textField1 {
+      pickerView.dataArray = data1
+    } else if textField == textField2 {
+      pickerView.dataArray = data2
+    }
+    pickerView.field = textField
+    pickerView.setPicker()
+  }
+  
+}
