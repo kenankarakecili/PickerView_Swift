@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361339E81D33B03700313950 /* KKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361339E71D33B03700313950 /* KKPickerView.swift */; };
+		361339EA1D33B0D700313950 /* NonPerformField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361339E91D33B0D700313950 /* NonPerformField.swift */; };
 		3677BF801CC5002E00447C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677BF7F1CC5002E00447C7B /* AppDelegate.swift */; };
 		3677BF821CC5002E00447C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677BF811CC5002E00447C7B /* ViewController.swift */; };
 		3677BF851CC5002E00447C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3677BF831CC5002E00447C7B /* Main.storyboard */; };
 		3677BF871CC5002E00447C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3677BF861CC5002E00447C7B /* Assets.xcassets */; };
 		3677BF8A1CC5002E00447C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3677BF881CC5002E00447C7B /* LaunchScreen.storyboard */; };
-		3677BF921CC5010000447C7B /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677BF911CC5010000447C7B /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361339E71D33B03700313950 /* KKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKPickerView.swift; sourceTree = "<group>"; };
+		361339E91D33B0D700313950 /* NonPerformField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonPerformField.swift; sourceTree = "<group>"; };
 		3677BF7C1CC5002E00447C7B /* PickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3677BF7F1CC5002E00447C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3677BF811CC5002E00447C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +26,6 @@
 		3677BF861CC5002E00447C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3677BF891CC5002E00447C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3677BF8B1CC5002E00447C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3677BF911CC5010000447C7B /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				3677BF7F1CC5002E00447C7B /* AppDelegate.swift */,
-				3677BF911CC5010000447C7B /* PickerView.swift */,
+				361339E91D33B0D700313950 /* NonPerformField.swift */,
+				361339E71D33B03700313950 /* KKPickerView.swift */,
 				3677BF811CC5002E00447C7B /* ViewController.swift */,
 				3677BF831CC5002E00447C7B /* Main.storyboard */,
 				3677BF861CC5002E00447C7B /* Assets.xcassets */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3677BF821CC5002E00447C7B /* ViewController.swift in Sources */,
+				361339E81D33B03700313950 /* KKPickerView.swift in Sources */,
+				361339EA1D33B0D700313950 /* NonPerformField.swift in Sources */,
 				3677BF801CC5002E00447C7B /* AppDelegate.swift in Sources */,
-				3677BF921CC5010000447C7B /* PickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
