@@ -7,7 +7,7 @@ An effective implementation for UIPickerView in Swift
 ```
 class ViewController: UIViewController {
 
-  let pickerView = PickerView()
+  let pickerView = KKPickerView()
 
 }
 
