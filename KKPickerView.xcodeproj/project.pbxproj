@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		361339E81D33B03700313950 /* KKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361339E71D33B03700313950 /* KKPickerView.swift */; };
 		361339EA1D33B0D700313950 /* NonPerformField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361339E91D33B0D700313950 /* NonPerformField.swift */; };
+		3657597C1D34C69E00AD832E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3657597B1D34C69E00AD832E /* Default-568h@2x.png */; };
 		3677BF801CC5002E00447C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677BF7F1CC5002E00447C7B /* AppDelegate.swift */; };
 		3677BF821CC5002E00447C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677BF811CC5002E00447C7B /* ViewController.swift */; };
 		3677BF851CC5002E00447C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3677BF831CC5002E00447C7B /* Main.storyboard */; };
@@ -19,7 +20,8 @@
 /* Begin PBXFileReference section */
 		361339E71D33B03700313950 /* KKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKPickerView.swift; sourceTree = "<group>"; };
 		361339E91D33B0D700313950 /* NonPerformField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonPerformField.swift; sourceTree = "<group>"; };
-		3677BF7C1CC5002E00447C7B /* PickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3657597B1D34C69E00AD832E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3677BF7C1CC5002E00447C7B /* KKPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3677BF7F1CC5002E00447C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3677BF811CC5002E00447C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3677BF841CC5002E00447C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +44,8 @@
 		3677BF731CC5002E00447C7B = {
 			isa = PBXGroup;
 			children = (
-				3677BF7E1CC5002E00447C7B /* PickerView */,
+				3657597B1D34C69E00AD832E /* Default-568h@2x.png */,
+				3677BF7E1CC5002E00447C7B /* KKPickerView */,
 				3677BF7D1CC5002E00447C7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +53,12 @@
 		3677BF7D1CC5002E00447C7B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3677BF7C1CC5002E00447C7B /* PickerView.app */,
+				3677BF7C1CC5002E00447C7B /* KKPickerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3677BF7E1CC5002E00447C7B /* PickerView */ = {
+		3677BF7E1CC5002E00447C7B /* KKPickerView */ = {
 			isa = PBXGroup;
 			children = (
 				3677BF7F1CC5002E00447C7B /* AppDelegate.swift */,
@@ -67,15 +70,15 @@
 				3677BF881CC5002E00447C7B /* LaunchScreen.storyboard */,
 				3677BF8B1CC5002E00447C7B /* Info.plist */,
 			);
-			path = PickerView;
+			path = KKPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3677BF7B1CC5002E00447C7B /* PickerView */ = {
+		3677BF7B1CC5002E00447C7B /* KKPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3677BF8E1CC5002E00447C7B /* Build configuration list for PBXNativeTarget "PickerView" */;
+			buildConfigurationList = 3677BF8E1CC5002E00447C7B /* Build configuration list for PBXNativeTarget "KKPickerView" */;
 			buildPhases = (
 				3677BF781CC5002E00447C7B /* Sources */,
 				3677BF791CC5002E00447C7B /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = PickerView;
+			name = KKPickerView;
 			productName = PickerView;
-			productReference = 3677BF7C1CC5002E00447C7B /* PickerView.app */;
+			productReference = 3677BF7C1CC5002E00447C7B /* KKPickerView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3677BF771CC5002E00447C7B /* Build configuration list for PBXProject "PickerView" */;
+			buildConfigurationList = 3677BF771CC5002E00447C7B /* Build configuration list for PBXProject "KKPickerView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3677BF7B1CC5002E00447C7B /* PickerView */,
+				3677BF7B1CC5002E00447C7B /* KKPickerView */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3677BF8A1CC5002E00447C7B /* LaunchScreen.storyboard in Resources */,
+				3657597C1D34C69E00AD832E /* Default-568h@2x.png in Resources */,
 				3677BF871CC5002E00447C7B /* Assets.xcassets in Resources */,
 				3677BF851CC5002E00447C7B /* Main.storyboard in Resources */,
 			);
@@ -259,8 +263,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.karakecili.PickerView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karakecili.KKPickerView;
+				PRODUCT_NAME = KKPickerView;
 			};
 			name = Debug;
 		};
@@ -270,15 +274,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.karakecili.PickerView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karakecili.KKPickerView;
+				PRODUCT_NAME = KKPickerView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3677BF771CC5002E00447C7B /* Build configuration list for PBXProject "PickerView" */ = {
+		3677BF771CC5002E00447C7B /* Build configuration list for PBXProject "KKPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3677BF8C1CC5002E00447C7B /* Debug */,
@@ -287,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3677BF8E1CC5002E00447C7B /* Build configuration list for PBXNativeTarget "PickerView" */ = {
+		3677BF8E1CC5002E00447C7B /* Build configuration list for PBXNativeTarget "KKPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3677BF8F1CC5002E00447C7B /* Debug */,

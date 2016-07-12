@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3677BF7B1CC5002E00447C7B"
-               BuildableName = "PickerView.app"
-               BlueprintName = "PickerView"
-               ReferencedContainer = "container:PickerView.xcodeproj">
+               BuildableName = "KKPickerView.app"
+               BlueprintName = "KKPickerView"
+               ReferencedContainer = "container:KKPickerView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3677BF7B1CC5002E00447C7B"
-            BuildableName = "PickerView.app"
-            BlueprintName = "PickerView"
-            ReferencedContainer = "container:PickerView.xcodeproj">
+            BuildableName = "KKPickerView.app"
+            BlueprintName = "KKPickerView"
+            ReferencedContainer = "container:KKPickerView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3677BF7B1CC5002E00447C7B"
-            BuildableName = "PickerView.app"
-            BlueprintName = "PickerView"
-            ReferencedContainer = "container:PickerView.xcodeproj">
+            BuildableName = "KKPickerView.app"
+            BlueprintName = "KKPickerView"
+            ReferencedContainer = "container:KKPickerView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3677BF7B1CC5002E00447C7B"
-            BuildableName = "PickerView.app"
-            BlueprintName = "PickerView"
-            ReferencedContainer = "container:PickerView.xcodeproj">
+            BuildableName = "KKPickerView.app"
+            BlueprintName = "KKPickerView"
+            ReferencedContainer = "container:KKPickerView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

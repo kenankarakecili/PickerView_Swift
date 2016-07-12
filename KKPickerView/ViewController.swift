@@ -44,7 +44,6 @@ extension ViewController: KKPickerViewDelegate {
     } else {
       textField2.text = data2[row]
     }
-    
   }
   
 }
