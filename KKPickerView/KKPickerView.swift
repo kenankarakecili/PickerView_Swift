@@ -1,6 +1,5 @@
 //
 //  PickerView.swift
-//  Motto
 //
 //  Created by Kenan Karakecili on 4/15/16.
 //  Copyright © 2016 Kenan Karakecili. All rights reserved.
