@@ -1,7 +1,9 @@
 # KKPickerView_Swift
 An effective implementation for UIPickerView in Swift
 
+<kbd>
 ![alt tag](https://raw.githubusercontent.com/KenanKarakecili/PickerView_Swift/master/Untitled-2.gif)
+</kbd>
 
 #Usage
 ```
